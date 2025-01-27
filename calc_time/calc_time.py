@@ -22,7 +22,7 @@ def get_audio_duration(filepath):
 
 def get_version():
     try:
-        return pkg_resources.get_distribution("wer_cer_calculator").version
+        return pkg_resources.get_distribution("calc_time").version
     except pkg_resources.DistributionNotFound:
         return "Package not installed!" 
 
